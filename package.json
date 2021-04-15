@@ -5,7 +5,9 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "type-check": "tsc"
+    "type-check": "tsc",
+    "init": "git submodule init && git submodule update",
+    "update:subs": "git submodule update --remote"
   },
   "dependencies": {
     "next": "latest",
