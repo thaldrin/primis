@@ -3,7 +3,15 @@ module.exports = {
         return [
             {
                 source: '/invite',
-                destination: 'https://discordapp.com/oauth2/authorize?client_id=434662676547764244&scope=bot&permissions=379968',
+                destination: 'https://t8.pm/legacy-invite',
+            },
+            {
+                source: '/support',
+                destination: 'https://discord.gg/xNAcF8m',
+            },
+            {
+                source: '/source',
+                destination: 'https://werewolf.codes/t/thaldrin',
             },
         ]
     },
