@@ -1,0 +1,3 @@
+[submodule "pages/api"]
+	path = pages/api
+	url = git@github.com:thaldrin/temere.git
