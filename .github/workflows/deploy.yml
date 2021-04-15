@@ -19,10 +19,8 @@ jobs:
           VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
           VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
           ALIAS_DOMAINS: |
-           thaldr.in
-           thaldrin.now.sh
-           thaldrin.vercel.app
-           {BRANCH}-{SHA}.thaldr.in
-           {BRANCH}-{SHA}-thaldrin.now.sh
-           {BRANCH}-{SHA}-thaldrin.vercel.app
-          PR_PREVIEW_DOMAIN: "{REPO}-{PR}-thaldrin.now.sh"
+            thaldr.in
+            thaldrin.vercel.app
+            {BRANCH}-{SHA}.thaldr.in
+            {BRANCH}-{SHA}-thaldrin.vercel.app
+          PR_PREVIEW_DOMAIN: "{REPO}-{PR}-thaldrin.vercel.app"
