@@ -6,7 +6,7 @@ export type Key = {
 }
 
 export type Image = {
-    id: string
+    id: number
     file: string
     folder: string
     ext: string
