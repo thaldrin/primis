@@ -31,7 +31,7 @@ export async function getdata() {
 let UpdateInterval = setInterval(async () => {
     console.log("Updating Cache")
     await getdata()
-}, 60 * 1000)
+}, 30 * 1000)
 
 getdata()
 export default cache
