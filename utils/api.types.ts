@@ -10,4 +10,5 @@ export type Image = {
     file: string
     folder: string
     ext: string
+    sources: string
 }
