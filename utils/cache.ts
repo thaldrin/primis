@@ -27,10 +27,11 @@ export async function getdata() {
 
 }
 
-
-getdata()
-setInterval(async () => {
+// @ts-ignore
+let UpdateInterval = setInterval(async () => {
+    console.log("Updating Cache")
     await getdata()
 }, 60 * 1000)
 
+getdata()
 export default cache
