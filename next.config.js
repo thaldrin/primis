@@ -1,6 +1,15 @@
 module.exports = {
+    // future: {
+    //     webpack5: true
+    // },
+
     async rewrites() {
         return [
+            // ! API Rewrites
+
+
+            // ! Important Rewrites, though they could also be Redirects
+
             {
                 source: '/invite',
                 destination: 'https://t8.pm/legacy-invite',
