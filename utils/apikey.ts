@@ -7,7 +7,7 @@ export default async function (headers: any) {
         success: false,
         message: "You have not passed an API Key into the Authorization Header."
     }
-
+    // @ts-ignore
     let { data: data_key, error: key_error } = await supabase.from<Key>("apikeys").select().eq('key', apikey)
 
     if (data_key?.length === 0) {
