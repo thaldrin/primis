@@ -1,8 +1,10 @@
 import Link from 'next/link'
 import Layout from '../components/Layout'
+import Head from "next/head"
 
 const IndexPage = () => (
   <Layout title="Home | Thaldrin">
+  <script async src="https://arc.io/widget.min.js#tBqYtqFJ"></script>
     <h1>Welcome to Thaldrin's new Site</h1>
     <h2>
       This is currently in-dev to invite the bot please use <Link href="/invite">
