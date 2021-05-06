@@ -1,0 +1,19 @@
+let OK = 200
+let UNAUTHORIZED = 401
+let BAD_REQUEST = 401
+let NOT_FOUND = 404
+let FORBIDDEN = 403
+let NOT_ALLOWED = 405
+
+
+export {
+
+    OK,
+    BAD_REQUEST,
+    UNAUTHORIZED,
+    NOT_FOUND,
+    FORBIDDEN,
+    NOT_ALLOWED
+
+
+}
