@@ -1,3 +1,3 @@
 # Primis
 
-This is the Repo for Thaldrin's Website and his API
+> Primis `("First")` is Thaldrin's Website, hosted by Vercel.
